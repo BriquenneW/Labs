@@ -1,0 +1,129 @@
+/* Custom properties in :root */
+:root {
+    --forest-green: #2c5e3b;
+    --earth-brown: #5c4033;
+    --soft-cream: #f4f1ea;
+    --text-dark: #333333;
+    --white: #ffffff;
+}
+
+/* Type selectors */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Font stack with fallbacks */
+    line-height: 1.2; /* line-height */
+    text-align: left; /* text-align */
+    margin: 0; /* margins or padding */
+    padding: 0;
+    background-color: var(--soft-cream);
+    color: var(--text-dark);  
+    border: 3px ridge #333333;
+}
+
+header {
+    background-color: var(--forest-green);
+    color: var(--white);
+    padding: 20px 0; /* px measurement */
+    text-align: center;
+    font-size: larger;
+    border-bottom: 7px solid #333333;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 { 
+    text-align: center;
+    font-size: 150%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: medium;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+main {
+    width: 80%; /* at least one % */
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--white);
+    border: 1px solid var(--earth-brown); /* border and px measurement */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--earth-brown);
+    color: var(--white);
+    font-size: small;
+}
+
+/* Class selector */
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.mushroom-card {
+    background-color: var(--soft-cream);
+    border: 1px solid var(--forest-green);
+    padding: 1em; /* one em */
+    flex: 1;
+    min-width: 250px;
+}
+
+.mushroom-card img {
+    width: 100%;
+    height: auto;
+}
+summary {
+    font-style: italic;
+}
+
+/* ID selector */
+#unique-banner {
+    background-color: var(--earth-brown);
+    color: var(--white);
+    padding: 10px;
+    text-align: center;
+}
+
+/* Descendant selector */
+main article h3 {
+    color: var(--forest-green);
+}
+
+/* Pseudo-class with matching hover and focus styles */
+a:link, a:visited {
+    color: #7ce8a0;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #a3c1ad;
+    text-decoration: underline;
+    outline: 2px solid #a3c1ad; /* accessibility focus indicator */
+}
+
+/* Float and clear properties */
+.float-left {
+    float: left;
+    margin-right: 15px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}

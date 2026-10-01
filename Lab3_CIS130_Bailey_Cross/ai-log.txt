@@ -1,0 +1,75 @@
+AI assistant used: Google Gemini 
+
+First prompt- I am a first year computer information systems 
+student looking to build an informative and fun website about
+Mushrooms. Please provide a step by step plan for website 
+construction that stays within Javasript and CSS boundaries. 
+
+Second prompt- Please consolidate the information for the 
+website within two pages. 
+
+Third prompt- Do not use Javascript, Bootstrap, Tailwind, 
+inline CSS. Please provide a checklist to follow.
+
+Fourth prompt- Using the previous plan we agreed on, 
+generate only the facts.html. Use semantic HTML and beginner-friendly code. 
+Do not include CSS inside the HTML, nor Javascript.
+After the production of the code, give me a short checklist highlighting 
+the important required HTML concepts.
+
+Fifth prompt- Generate HTML output for index.html for the same webpage, 
+keep the html beginner-friendly. Do not include Javascript or main.css. 
+Include relative link to facts.html and link to main style.css.
+
+Sixth prompt- Generate main.css for my two-page website with 
+beginner-friendly CSS. Use type selectors, a class selector, an ID selector,
+one descendant selector, link a pseudo-class with matching hover and focus 
+styles, a custom property in :root, var(), at least one %, one em, and one px 
+measurement. Include font stack with fallbacks, line-height, text-align, margins 
+or padding, a border, float, and clear. Do not use CSS frameworks or JavaScript.  
+
+Seventh prompt- Edit facts.html and index.html to include class selectors and 
+ID selector from main.css.
+
+Eighth prompt- Edit index.html to include images for Chanterelle, Fly Agaric, and Morel. 
+Pull images from images folder. Assign each image file to its matching name. 
+
+Nineth prompt- Include header.webp image on index.html and facts.html pages. 
+Style my main.css to include header.webp in the header of each page as a small addition
+next to the text. Include float element and a small margin. Edit main.css to also include
+a clear for the later main content.
+
+Tenth prompt- undo previous edit 
+
+Eleventh prompt- what does clearfix do?
+
+Twelfth prompt- Revise the CSS you generated to not include flexbox or grid. 
+Explain the changes in one sentence. 
+
+Note: Without the flex elements my page now has spillage of content. 
+
+Thirteenth prompt- Can you find another way to keep each section a manageable size that 
+does not float off of the page without the use of flexbox.  
+
+Note: I switched back to the flexbox version in order to keep the page neatly aligned and not as jumbled.
+
+Fourteenth prompt- Pretend you’re a beginner web-dev review agent and that your goal is to verify that my 
+Lab 3 assignment satisfies the criteria without taking control from me. Work in stages. First, create a 
+checklist from my criteria then ask me for one file at a time. Audit each file against the checklist and 
+identify missing or incorrect items. Recommend the changes needed. After I make the changes, re-check the 
+file. Do not rewrite the whole project unless I ask you to. Stop after each stage and wait for my response.   
+
+Fifteenth prompt- my meta tag includes the page scaling
+
+Sixteenth prompt- setting image to styles/style.css floods the page with the image 
+
+Seventeenth prompt- re-check index.html
+
+Eighteenth prompt- Check facts.html
+
+Nineteenth prompt- Check style.css
+
+Twentieth prompt- This is perfect, thank you. 
+
+Note: Along the final steps it kept suggesting to change the metadata to include a description rather than 
+image dimensions. I decided to ignore this suggestion. 
